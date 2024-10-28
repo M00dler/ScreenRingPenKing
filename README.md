@@ -1,21 +1,49 @@
-# SC1015 Project
-
 # Problem Statement: Predicting Game Success on Steam Based on Release Features
 
-The video game industry has become a vast and competitive market, with thousands of games released each year on platforms like Steam. However, only a subset of these games achieve high success, often measured by popularity, player engagement, and positive reception. Despite the abundance of data on released games, it remains challenging for developers and publishers to identify which specific release characteristics contribute most significantly to a game's success.
+- **Context**: 
+  - The video game industry is vast and highly competitive.
+  - Thousands of games are released yearly on platforms like Steam.
+  - Only a subset of these games achieve notable success, often measured by:
+    - Popularity
+    - Player engagement
+    - Positive reception
 
-This project seeks to develop a predictive model to forecast game success using features available at release. Success metrics, including peak concurrent users (`peak_ccu`), positive reviews (`positive`), negative reviews (`negative`),  and estimated owners (`estimated_owners`), will serve as proxies for a game's success. The primary aim is to help developers, publishers, and industry stakeholders make informed decisions about game design, pricing, and marketing strategies to increase the likelihood of success on Steam.
+- **Challenges**:
+  - Despite abundant data, it remains difficult for developers/publishers to pinpoint which features contribute most to game success.
 
-### The analysis will explore the following release features as predictors:
-- **Game price (`price`)**
-- **Age restriction (`required_age`)**
-- **Downloadable content count (`dlc_count`)**
-- **Developer and publisher**
-- **Game categories (e.g., multiplayer, single-player)**
-- **Genres (e.g., action, strategy, RPG)**
-- **TO ADD?**
+- **Project Objective**:
+  - Develop a predictive model to forecast game success using **features available before release**.
 
-Using regression analysis and feature importance ranking, the project will assess the individual and combined effects of these variables on success outcomes. The results could reveal which factors—such as pricing, genre choice, or platform availability—are most correlated with user engagement and satisfaction. 
+- **Success Metrics**:
+  - Peak concurrent users (`peak_ccu`)
+  - Positive reviews (`positive`)
+  - Negative reviews (`negative`)
+  - Estimated owners (`estimated_owners`) 
+    - Primary indicator of **sales and overall success**
 
-Ultimately, the model aims to serve as a tool for better decision-making in game development and marketing, addressing the industry's need for evidence-based strategies to increase game success.
+- **Feature Focus**: 
+  - Use **pre-release features** that developers control, such as:
+    - Pricing
+    - Genre
+    - Platform availability
+    - DLC count
+  - Goal: Provide practical, actionable insights.
 
+- **Methodology**:
+  - Use **regression analysis** and **feature importance ranking**.
+  - Assess both individual and combined effects of variables on success outcomes.
+
+- **Potential Insights**:
+  - Identify key factors correlated with user engagement and satisfaction, such as:
+    - Optimal pricing strategies
+    - Genre preferences
+    - Platform choices
+  - Provide guidance for:
+    - Game design
+    - Marketing strategies
+    - Release planning
+
+- **Goal**:
+  - Create a **decision-support tool** for developers, publishers, and stakeholders.
+  - Equip them with **data-driven strategies** to maximize game success on Steam.
+  - Address industry's need for evidence-based strategies to understand how **early decisions** impact a game's post-launch trajectory.
