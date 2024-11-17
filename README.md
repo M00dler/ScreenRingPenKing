@@ -69,3 +69,22 @@ We successfully developed a robust model to predict football player market value
 
 ## Main notebook:
 `football_final.ipynb`
+
+## Contributors:
+- [Audric Yap](https://github.com/AudricY)
+  - feature engineering, model training, model evaluation
+- [Gabriel Lim](https://github.com/M00dler)
+  -  feature engineering, model training, model evaluation
+- [Joshua Chin](https://github.com/yuurraa)
+  - EDA, data preprocessing, feature engineering, model training, model evaluation
+
+## References:
+- https://www.kaggle.com/datasets/davidcariboo/player-scores/data 
+- https://xgboost.readthedocs.io/en/stable/
+- https://scikit-learn.org/stable
+- https://seaborn.pydata.org/
+- https://matplotlib.org/stable
+- https://pandas.pydata.org/pandas-docs/stable
+- https://numpy.org/doc/stable/
+- https://www.kaggle.com
+- https://www.transfermarkt.com
